@@ -10,9 +10,9 @@ const AppRedirect = () => {
     const userAgent = navigator.userAgent || navigator.vendor;
 
     if (/android/i.test(userAgent)) {
-      window.location.href = 'https://play.google.com/store/apps/details?id=io.pspot.user';
+      window.location.href = 'https://play.google.com/store/apps/details?id=com.nishant.blyp';
     } else if (/iPad|iPhone|iPod/.test(userAgent) ) {
-      window.location.href = 'https://apps.apple.com/app/id1590756872';
+      window.location.href = 'https://apps.apple.com/in/app/blyp-smart-move/id6745582429';
     } else {
       router.push('/unsupported');
     }
